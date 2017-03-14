@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@font-face {
+  font-family: 'Garamond';
+  src: url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+}
+
+p, h3, h4 {
+  font-family: 'Garamond';
+}
+
+//ALL IMAGE BANNERS
+#about-us-banner {
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1457036844/about-us-banner_revecz.png');
+}
+#works-banner {
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1456847172/gloves_aqm3wu.jpg');
+}
+#featured-banner {
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1456847555/featured-banner-01_hlzltk.jpg');
+}
+#featured-second-banner{
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1456847580/featured-banner-02_dtiemp.jpg');
+  margin-top: 1em;
+}
+#featured-third-banner{
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1456847612/featured-banner-03_uo89uo.jpg');
+}
+#style-banner {
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1456090213/style-tips-banner_fgyrfp.jpg');
+  background-position-y: 100%;
+}
+#faq-banner {
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1456846987/faq-banner_urumzc.jpg');
+  background-size: cover;
+}
+#contact-banner {
+  background-image: url('https://res.cloudinary.com/dvzdxf8an/image/upload/v1456847279/contact-banner_ivaejm.jpg');
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: top center;
+  .text {
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    h1 {
+      font-size: 5em;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-top: 20vh;
+      text-shadow: 1px 1px 1px black;
+      color: #fff;
+    }
+    h2 {
+      text-transform: lowercase;
+      margin-top: 20vh;
+      text-shadow: 1px 1px 1px black;
+      color: #fff;
+    }
+  }
+}
+
+
+
+.banner {
+  background-size: cover;
+  min-height: 80%;
+  min-height: 80vh;
+  height: 85vh;
+  .text{
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+      h1{
+        color: white;
+        font-family: gotham;
+        text-shadow: 1px 1px 1px black;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 35vh;
+      }
+      h2{
+        font-family: gotham;
+        text-shadow: 1px 1px 1px black;
+        color: white;
+        text-transform: lowercase;
+      }
+  }
+}
+
+/*ABOUT US PAGE*/
+.gotham {
+  font-family: gotham;
+}
+.about-content{
+  padding: 0 15px;
+  margin: 7rem 0;
+}
+
+.about-content h1{
+  margin: 2rem 0;
+  font-size: 5em;
+}
+
+.about-content p {
+  font-size: 1.4em;
+}
+
+.about-us{
+  padding: 0;
+  font-family: "Garamond";
+  .team-photos{
+    text-align: center;
+    padding: 0;
+    .employee{
+      list-style-type: none;
+      // display: inline-block;
+      display: block;
+      .employee-img{
+        max-width: 100%;
+        height: 230px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+// Gallery for about
+.media-row{
+  // margin: 7rem 0 0;
+  margin: 0;
+}
+  .about-media{
+    border: 4px solid white;
+  }
+  // QUESTIONS SECTION (also used in featured closet)
+  .questions{
+    text-align: left;
+    .question{
+      font-family: 'Garamond';
+      margin: 3.5rem 0;
+    }
+  }
+}
+
+/*HOW IT WORKS*/
+#works{
+  .col-xs-8 {
+    padding-left: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid darkgrey;
+  }
+  .row{
+    padding:0 15px;
+    h1{
+      text-align: center;
+      text-transform: lowercase;
+    }
+    .step-photo{
+      font-size: 7em;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+    }
+    .col-xs-4{
+      text-align: left;
+    }
+    p{
+      font-size:1.4em;
+    }
+  }
+}
+
+/*STYLE SCIENCE*/
+.style a{
+    color:#5D5D5D;
+  }
+.style a:hover {
+  color: #5D5D5D;
+  text-decoration: underline;
+}
+
+/*CONTACT*/
+.social{
+  text-align: center;
+  text-decoration: none;
+  font-size: 3.3em;
+}
+.social a {
+  color: white;
+  border-style: none;
+}
+.contact-us p {
+  color: white;
+}
+.contact-us .gotham a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.contact-us .gotham a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/*FAQ*/
+.faq-page h2 {
+    color: black;
+    margin-top: 6rem;
+}
+
+/*FEATURED CLOSET*/
+.featured-closet p, .style-tips p {
+  font-size: 1.4em;
+  font-family: 'Garamond';
+}
+.featured-closet .content {
+    margin: 7rem 0;
+    text-align: left;
+}
+.featured-closet .social {
+  font-size: 3.3em;
+  text-decoration: none;
+}
+.featured-closet a:hover {
+  color: inherit;
+}
