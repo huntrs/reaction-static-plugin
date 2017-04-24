@@ -16,3 +16,4 @@ import "./static_style.less";
 import "./style.html";
 import "./terms.html";
 import "./works.html";
+import "./works";
